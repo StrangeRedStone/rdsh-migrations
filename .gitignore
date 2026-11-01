@@ -1,0 +1,10 @@
+# 本仓库不存迁移数据/凭据
+*.log
+*.log.*
+*.zstd
+*.jsonl
+*.credentials*
+.env
+backup/
+sessions/
+data/

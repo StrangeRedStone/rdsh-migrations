@@ -57,6 +57,10 @@ rdsh migrate --from 0.2.0-rc.2 --to 0.2.1-rc.2 --items ... --provider <id>
 - 会话数据、`.credentials.yaml`、备份目录、日志原件、任何密钥/令牌。
 - 与版本无关的通用逻辑（那属于 rdsh 主仓库的 `migrate.sh`）。
 
+## 当前状态
+
+仓库脚手架已建立；**首个特化脚本等 0.2.2 升级时再生成**（用户 2026-11-01 决定）。
+
 ## 生成方式
 
 用 rdsh 的 skill `migrate-specialize`（在 `$SUITE/shared/skills/migrate-specialize/`）生成；

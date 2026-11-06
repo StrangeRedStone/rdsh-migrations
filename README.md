@@ -59,7 +59,9 @@ rdsh migrate --from 0.2.0-rc.2 --to 0.2.1-rc.2 --items ... --provider <id>
 
 ## 当前状态
 
-仓库脚手架已建立；**首个特化脚本等 0.2.2 升级时再生成**（用户 2026-11-01 决定）。
+已收录首个特化脚本：`migrate-0.2.1-rc.2-to-0.2.2-rc.1.sh`（2026-11-05 生成；**2026-11-05 23:43 已由用户用于 0.2.1-rc.2 → 0.2.2-rc.1 真机迁移**，新版实例即这次迁移的产物；见 `index.md`）。
+配套技能：`skills/migrate-specialize/SKILL.md`（生成/验证/归档流程；运行时权威副本在 `$SUITE/shared/skills/migrate-specialize/`）。
+运行时脚本仍在 `$MANAGE_ROOT`（`rdsh cd --manage`）；本仓库只做归档/分享。
 
 ## 生成方式
 
